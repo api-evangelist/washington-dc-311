@@ -1,0 +1,49 @@
+{
+    "name": "Washington DC 311",
+    "description": "<p>The 311 service for the City of Washington D.C.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Screen Shot 2017-12-26 at 10.07.58 PM.png",
+    "tags": [
+        "311",
+        "have api",
+        "open311"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/washington-dc-311\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Washington DC 311",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Screen Shot 2017-12-26 at 10.07.58 PM.png",
+            "humanURL": "https:\/\/311.dc.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/washington-dc-311-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/washington-dc-311-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Open 311 Feed",
+            "url": "http:\/\/app.311.dc.gov\/cwi\/Open311\/v2\/services.xml?jurisdiction_id=dc.gov"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/311DCgov"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/311.dc.gov\/"
+        }
+    ]
+}
